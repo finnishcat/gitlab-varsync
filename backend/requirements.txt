@@ -1,3 +1,4 @@
+Flask==2.3.3
 cachetools==5.5.2
 certifi==2025.4.26
 charset-normalizer==3.4.2

@@ -1,22 +1,42 @@
-# Virtual environment
+# --- PYTHON ---
+
+# Env
 .venv/
 venv/
 ENV/
 
-# Temporary system files
+# Compiled
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Generated files
+# Logs, datasets
 *.log
 *.csv
 *.xlsx
 
-# VsCode and other IDEs configuration files
+# --- NODE / FRONTEND ---
+
+# Dependencies
+frontend/node_modules/
+
+# Build
+frontend/dist/
+
+# Local Vite or cache
+.vite/
+frontend/.vite/
+frontend/.parcel-cache/
+
+# --- DOCKER / SYSTEM ---
+
+# Docker junk
+**/.dockerignore
+
+# IDE
 .vscode/
 .idea/
 .DS_Store
 
-# Credentials (never version sensitive data!)
+# --- ENV / SECRETS ---
 .env
