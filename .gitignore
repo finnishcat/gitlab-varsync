@@ -1,22 +1,22 @@
-# Ambiente virtuale
+# Virtual environment
 .venv/
 venv/
 ENV/
 
-# File temporanei di sistema
+# Temporary system files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# File generati
+# Generated files
 *.log
 *.csv
 *.xlsx
 
-# VSCode e altri editor
+# VsCode and other IDEs configuration files
 .vscode/
 .idea/
 .DS_Store
 
-# Credenziali (NON versionare mai token sensibili!)
+# Credentials (never version sensitive data!)
 .env
